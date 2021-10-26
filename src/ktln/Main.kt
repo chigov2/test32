@@ -19,6 +19,8 @@ val c: String? = ""
     println(listOfNumbers.get(0))
 
     println(max(5,52))
+    println(crop("122344543589-6fkgjd;lf"))
 }
 
 fun max(a: Int, b:Int) = if (a >b) a else b
+fun crop(str:String) = str.substring(0, Math.min(12,str.length))
