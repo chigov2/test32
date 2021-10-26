@@ -33,8 +33,11 @@ fun main()
     }
 
     val sorted:Array<Int> = sort(arrayOf(3,67,89,4,23))
-    for(i in sorted)
+    for(i in sorted) {
         println(i)
+        println(i)
+    }
+
 
 
 }
