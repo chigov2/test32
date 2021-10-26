@@ -98,5 +98,6 @@ fun printInfo(lastName: String = "", name: String = "", patr:String = "")
     if (patr.isNotEmpty())
     {
         println(patr)
+        println(patr)
     }
 }
