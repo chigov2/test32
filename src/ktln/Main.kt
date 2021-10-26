@@ -19,7 +19,7 @@ val c: String? = ""
     println(listOfNumbers.get(0))
 
     println(max(5,52))
-    println(crop("122344543589-6fkgjd;lf"))
+    println(crop("122344543589-6fkgjd;lf45"))
 }
 
 fun max(a: Int, b:Int) = if (a >b) a else b
